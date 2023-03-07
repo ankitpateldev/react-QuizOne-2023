@@ -1,0 +1,639 @@
+[  {   
+   "title": "What is React JS?",    
+   "options": [    
+       "A: A programming language",    
+         "B: A JavaScript library for building user interfaces",   
+            "C: A markup language",     
+             "D: A database management system"  
+              ],
+  "correctOptionIndex": 1
+},
+{
+  "title": "What is JSX?",
+  "options": [
+    "A: A JavaScript extension",
+    "B: A file format used for React components",
+    "C: A programming language",
+    "D: A library for handling user input"
+  ],
+  "correctOptionIndex": 1
+},
+{
+  "title": "What is a component in React JS?",
+  "options": [
+    "A: A file that contains CSS styles",
+    "B: A function or class that returns HTML",
+    "C: A tool for managing state in React",
+    "D: A method for handling user input"
+  ],
+  "correctOptionIndex": 1
+},
+{
+  "title": "What is state in React JS?",
+  "options": [
+    "A:A method for updating the DOM ",
+    "B:An object that holds data in a React component ",
+    "C: A way to handle user input",
+    "D: A library for managing animations"
+  ],
+  "correctOptionIndex": 1
+},
+{
+  "title": "What is props in React JS?",
+  "options": [
+    "A: A method for updating the DOM",
+    "B: A way to pass data from a parent to a child component",
+    "C: A library for managing animations",
+    "D: A tool for managing state in React"
+  ],
+  "correctOptionIndex": 1
+},
+{
+  "title": "What is the virtual DOM in React JS?",
+  "options": [
+    "A: A way to render components on the server",
+    "B: A lightweight version of the DOM used for performance optimization",
+    "C: A tool for managing state in React",
+    "D: A method for handling user input"
+  ],
+  "correctOptionIndex": 1
+},
+
+  {
+    "title": "What is the purpose of React Router?",
+    "options": [
+      "A: To create routes for an application",
+      "B: To provide a way to navigate between pages in a single-page application",
+      "C: To manage the state of a React component",
+      "D: To render React components on the server"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "title": "What is Redux in React JS?",
+    "options": [
+      "A: A library for managing state in React applications",
+      "B: A tool for creating responsive user interfaces",
+      "C: A way to manage server-side rendering in React",
+      "D: A method for handling user input"
+    ],
+    "correctOptionIndex": 0
+  },
+  {
+    "title": "What is the difference between props and state in React JS?",
+    "options": [
+      "A: Props are read-only, while state can be updated",
+      "B: State is read-only, while props can be updated",
+      "C: Props and state are the same thing",
+      "D: Props and state cannot be updated"
+    ],
+    "correctOptionIndex": 0
+  },
+  {
+    "title": "What is React Native?",
+    "options": [
+      "A: A web development framework for React",
+      "B: A mobile development framework for React",
+      "C: A tool for managing state in React",
+      "D: A way to handle user input in React"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "title": "What is a higher-order component in React JS?",
+    "options": [
+      "A: A component that is higher in the component tree",
+      "B: A component that takes another component as an argument",
+      "C: A component that is higher in the DOM tree",
+      "D: A component that is responsible for managing state in React"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "title": "What is the purpose of keys in React?",
+    "options": [
+      "A: To uniquely identify elements in an array",
+      "B: To sort elements in an array",
+      "C: To filter elements in an array",
+      "D: To update elements in an array"
+    ],
+    "correctOptionIndex": 0
+  },
+  {
+    "title": "What is the difference between a controlled and an uncontrolled component in React?",
+    "options": [
+      "A: A controlled component is a component that is directly manipulated by the user, while an uncontrolled component is not",
+      "B: An uncontrolled component is a component that is directly manipulated by the user, while a controlled component is not",
+      "C: A controlled component is a component that is not directly manipulated by the user, while an uncontrolled component is",
+      "D: There is no difference between controlled and uncontrolled components"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "title": "What is the purpose of React.memo in React JS?",
+    "options": [
+      "A: To memoize a React component",
+      "B: To prevent unnecessary re-renders of a React component",
+      "C: To manage the state of a React component",
+      "D: To handle user input in a React component"
+    ],
+    "correctOptionIndex": 1
+  },
+  
+  {
+    "title": "What is the purpose of the useContext hook in React JS?",
+    "options": [
+      "A: To memoize a React component",
+      "B: To prevent unnecessary re-renders of a React component",
+      "C: To manage the state of a React component",
+      "D: To share data between React components without using props"
+    ],
+    "correctOptionIndex": 3
+  },
+  
+  {
+    "title": "What is the purpose of the useCallback hook in React JS?",
+    "options": [
+      "A: To memoize a React component",
+      "B: To prevent unnecessary re-renders of a React component",
+      "C: To manage the state of a React component",
+      "D: To optimize performance by caching function instances"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "title": "What is the purpose of the useRef hook in React JS?",
+    "options": [
+      "A: To memoize a React component",
+      "B: To prevent unnecessary re-renders of a React component",
+      "C: To manage the state of a React component",
+      "D: To access the DOM element of a React component"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "title": "What is the difference between class and functional components in React?",
+    "options": [
+      "A: Class components use a class definition while functional components use a function definition",
+      "B: Class components can have state while functional components cannot",
+      "C: Class components use the this keyword while functional components do not",
+      "D: All of the above"
+    ],
+    "correctOptionIndex": 3
+  },
+  {
+    "title": "What is the purpose of the useReducer hook in React?",
+    "options": [
+      "A: To manage complex state in a more organized and predictable way",
+      "B: To handle user input in a React component",
+      "C: To memoize a function and only recreate it when its dependencies change",
+      "D: To prevent unnecessary re-renders of a React component"
+    ],
+    "correctOptionIndex": 0
+  },
+  {
+    "title": "What is the purpose of render() in React?",
+    "options": [
+    "A: To define the structure and appearance of a React component",
+    "B: To handle user input in a React component",
+    "C: To manage the state of a React component",
+    "D: To render the component into the DOM"
+    ],
+    "correctOptionIndex": 3
+    },
+    {
+      "title": "What is an arrow function in React JS?",
+      "options": [
+      "A: A function that uses the 'function' keyword",
+      "B: A function that uses the 'arrow' symbol (=>) instead of the 'function' keyword",
+      "C: A function that can only be used in React class components",
+      "D: A function that is used to define state in React"
+      ],
+      "correctOptionIndex": 1
+      },
+      {
+        "title": "What is an event in React?",
+        "options": [
+        "A: A user interaction with a React component",
+        "B: A data structure used for managing state in React",
+        "C: A JavaScript function used for rendering components in React",
+        "D: A styling framework used for designing React components"
+        ],
+        "correctOptionIndex": 0
+        },
+        {
+          "title": "Explain the life cycle methods of React components.",
+          "options": [
+          "A: Methods that execute on every render of a component",
+          "B: Methods that execute during the mounting and unmounting of a component",
+          "C: Methods that execute during the updating of a component's props or state",
+          "D: Methods that execute during the handling of user events in a component"
+          ],
+          "correctOptionIndex": 1
+          },
+          {
+            "title": "What do you understand by refs in React?",
+            "options": [
+            "A: A way to reference an element in the DOM",
+            "B: A component lifecycle method",
+            "C: A tool for managing state in React",
+            "D: A method for handling user input in React"
+            ],
+            "correctOptionIndex": 0
+            },
+            {
+              "title": "What are Higher Order Components(HOC) in React?",
+              "options": [
+              "A: Components that are rendered higher up in the component tree",
+              "B: Components that are used to pass data from parent to child components",
+              "C: Components that are used to manage state in a React application",
+              "D: Components that are used to wrap other components to enhance or modify their behavior"
+              ],
+              "correctOptionIndex": 3
+              },
+              {
+                "title": "What can you do with Higher Order Components (HOC) in React?",
+                "options": [
+                "A: Reuse component logic",
+                "B: Manipulate props of a component",
+                "C: Abstract away common functionality",
+                "D: All of the above"
+                ],
+                "correctOptionIndex": 3
+                },
+                {
+                  "title": "What are Pure Components in React?",
+                  "options": [
+                  "A: Components that can only render pure HTML",
+                  "B: Components that are written using pure JavaScript",
+                  "C: Components that always render the same output for the same input props",
+                  "D: Components that are optimized for performance using memoization"
+                  ],
+                  "correctOptionIndex": 2
+                  },
+                  {
+                    "title": "What is Flux in React JS?",
+                    "options": [
+                    "A: A state management pattern used in React applications",
+                    "B: A programming language used to build React applications",
+                    "C: A library used to handle server-side rendering in React",
+                    "D: A tool used to manage user authentication in React applications"
+                    ],
+                    "correctOptionIndex": 0
+                    },
+                    {
+                      "title": "What is the significance of keys in React?",
+                      "options": [
+                        "A: To uniquely identify elements in an array",
+                        "B: To sort elements in an array",
+                        "C: To filter elements in an array",
+                        "D: To update elements in an array"
+                      ],
+                      "correctOptionIndex": 0
+                  },
+                  {
+                    "title": "What is Redux in React?",
+                    "options": [
+                    "A: A state management library for JavaScript applications",
+                    "B: A CSS preprocessor",
+                    "C: A testing framework for React components",
+                    "D: A server-side rendering engine for React"
+                    ],
+                    "correctOptionIndex": 0
+                    },
+                    {
+                      "title": "What are the components of Redux in React?",
+                      "options": [
+                      "A: Actions",
+                      "B: Reducers",
+                      "C: Store, view ",
+                      "D: All of the above"
+                      ],
+                      "correctOptionIndex": 3
+                      },
+                      {
+                        "title": "In which of the following language React.js is written?",
+                        "options": [
+                        "A: JavaScript",
+                        "B: Python",
+                        "C: Ruby",
+                        "D: Java"
+                        ],
+                        "correctOptionIndex": 0
+                        },
+                        {
+                          "title": "Which of the following command is used to Install create-react-app?",
+                          "options": [
+                          "A: npm install create-react-app",
+                          "B: npm install -f create-react-app",
+                          "C: npm install -g create-react-app",
+                          "D: install -g create-react-app"
+                          ],
+                          "correctOptionIndex": 2
+                          },
+                          {
+                            "title": "Which of the following is method is not a part of ReactDOM?",
+                            "options": [
+                            "A: ReactDOM.hydrate()",
+                            "B: ReactDOM.destroy()",
+                            "C: ReactDOM.createPortal()",
+                            "D: All of the mentioned"
+                            ],
+                            "correctOptionIndex": 1
+                            },
+                            {
+                              "title": "Which of the following is used to pass data to a component from outside in React?",
+                              "options": [
+                              "A: props",
+                              "B: render with arguments",
+                              "C: setState",
+                              "D: PropTypes"
+                              ],
+                              "correctOptionIndex": 0
+                              },
+                              {
+                                "title": "Which of the following is correct about prop in React?",
+                                "options": [
+                                "A: Can be changed inside another component",
+                                "B: Can be changed inside the component",
+                                "C: Cannot be changed in the component",
+                                "D: All of the above"
+                                ],
+                                "correctOptionIndex": 2
+                                },
+                                {
+                                  "title": "What is the correct syntax to write expression in JSX?",
+                                  "options": [
+                                  "A: [ expression ]",
+                                  "B: { expression }",
+                                  "C: {{ expression }}",
+                                  "D: _expression"
+                                  ],
+                                  "correctOptionIndex": 1
+                                  },
+                                  {
+                                    "title": "In ReactJS, what is State?",
+                                    "options": [
+                                    "It's a temporary storage of the elements",
+                                    "It's a state of the execution of the ReactJS application",
+                                    "It's an internal storage of the components",
+                                    "All of the above"
+                                    ],
+                                    "correctOptionIndex": 2
+                                    },
+                                    {
+                                      "title": "Which statement is required to define a class component?",
+                                      "options": [
+                                      "A: extends React.Components",
+                                      "B: imports React.Components",
+                                      "C: extends React.Component",
+                                      "D: imports React.Component"
+                                      ],
+                                      "correctOptionIndex": 2
+                                      },
+                                      {
+                                        "title": "What are components in ReactJS?",
+                                        "options": [
+                                        "A: Components are like functions that return HTML elements.",
+                                        "B: Components are the HTML elements.",
+                                        "C: Components are the set of variables defined in ReactJS.",
+                                        "D: None of the above"
+                                        ],
+                                        "correctOptionIndex": 0
+                                        },
+                                        {
+                                          "title": "What is the default port where webpack-server runs?",
+                                          "options": [
+                                          "A: 443",
+                                          "B: 3030",
+                                          "C: 3306",
+                                          "D: 8080"
+                                          ],
+                                          "correctOptionIndex": 3
+                                          },
+                                          {
+                                            "title": "Which method is used to generate lists?",
+                                            "options": [
+                                            "A: map()",
+                                            "B: generate()",
+                                            "C: new()",
+                                            "D: maps()"
+                                            ],
+                                            "correctOptionIndex": 0
+                                            },
+                                            {
+                                              "title": "With an arrow function, what does the 'this' keyword represent?",
+                                              "options": [
+                                              "A: The current object",
+                                              "B: The header object",
+                                              "C: The child object",
+                                              "D: The content"
+                                              ],
+                                              "correctOptionIndex": 0
+                                              },
+                                              {
+                                                "title": "Which is the correct arrow function to add two numbers?",
+                                                "options": [
+                                                "A. add = (a,b) => a+b;",
+                                                "B. add = (a,b) => return a+b;",
+                                                "C. add = (a,b) => { return a+b;}",
+                                                "D. Both A. and B.",
+                                                "E. Both A. and C."
+                                                ],
+                                                "correctOptionIndex": 0
+                                                },
+                                                {
+                                                  "title": "In ES6, why arrow functions are used?",
+                                                  "options": [
+                                                  "A. To access pointer variable",
+                                                  "B. To access variable of a class",
+                                                  "C. Both A and B",
+                                                  "D. Write shorter function syntax"
+                                                  ],
+                                                  "correctOptionIndex": 3
+                                                  },
+                                                  {
+                                                    "title": "A class component must include the _______ statement.",
+                                                    "options": [
+                                                    "A: extends React.Component",
+                                                    "B: extends React",
+                                                    "C: extends Component",
+                                                    "D: extends React.Component.All"
+                                                    ],
+                                                    "correctOptionIndex": 0
+                                                    },
+                                                    {
+                                                      "title": "What is a Redux store?",
+                                                      "options": [
+                                                      "A: A single state tree in a Redux application",
+                                                      "B: A collection of multiple state trees in a Redux application",
+                                                      "C: A component in a Redux application",
+                                                      "D: A stylesheet in a Redux application"
+                                                      ],
+                                                      "correctOptionIndex": 0
+                                                      },
+                                                      {
+                                                        "title": "What is the purpose of Redux in React?",
+                                                        "options": [
+                                                        "A: To manage component state in React applications",
+                                                        "B: To manage component styles in React applications",
+                                                        "C: To manage component events in React applications",
+                                                        "D: To manage global state in React applications"
+                                                        ],
+                                                        "correctOptionIndex": 3
+                                                        },
+                                                        {
+                                                          "title": "How many elements does a React component return?",
+                                                          "options": [
+                                                          "A: 1 Element",
+                                                          "B: 2 Elements",
+                                                          "C: Multiple Elements",
+                                                          "D: None of the above"
+                                                          ],
+                                                          "correctOptionIndex": 2
+                                                          },
+                                                          {
+                                                            "title": "What are the limitations of ReactJS?",
+                                                            "options": [
+                                                            "A: React is only for view layer of the app so we still need the help of other technologies to get a complete tooling set for development",
+                                                            "B: React is using inline templating and JSX. This can seem awkward to some developers",
+                                                            "C: The library of React is too large",
+                                                            "D: All of these"
+                                                            ],
+                                                            "correctOptionIndex": 3
+                                                            },
+                                                            {
+                                                              "title": "What are Props in React?",
+                                                              "options": [
+                                                              "A: Injected",
+                                                              "B: Methods",
+                                                              "C: Both A and B",
+                                                              "D: None of these"
+                                                              ],
+                                                              "correctOptionIndex": 0
+                                                              },
+                                                              {
+                                                                "title": "Which API is a MUST for every ReactJS component?",
+                                                                "options": [
+                                                                "A: getInitialState",
+                                                                "B: render",
+                                                                "C: renderComponent",
+                                                                "D: None of the Above"
+                                                                ],
+                                                                "correctOptionIndex": 1
+                                                                },
+                                                                {
+                                                                  "title": "What is the name of the React component that catches JavaScript errors anywhere in the child component tree?",
+                                                                  "options": [
+                                                                  "A: Error Bosses",
+                                                                  "B: Error Catchers",
+                                                                  "C: Error Helpers",
+                                                                  "D: Error Boundaries"
+                                                                  ],
+                                                                  "correctOptionIndex": 3
+                                                                  },
+                                                                  {
+                                                                    "title": "In which lifecycle method do you typically make requests for data in a class component?",
+                                                                    "options": [
+                                                                    "A: constructor",
+                                                                    "B: componentDidMount",
+                                                                    "C: componentWillReceiveProps",
+                                                                    "D: componentWillMount"
+                                                                    ],
+                                                                    "correctOptionIndex": 1
+                                                                    },
+                                                                    {
+                                                                      "title": "All React components must act like ___ with respect to their props.",
+                                                                      "options": [
+                                                                      "A: monads",
+                                                                      "B: pure functions",
+                                                                      "C: recursive functions",
+                                                                      "D: higher-order functions"
+                                                                      ],
+                                                                      "correctOptionIndex": 1
+                                                                      },
+                                                                      {
+                                                                        "title": "What is the purpose of using a ref in React?",
+                                                                        "options": [
+                                                                        "A: To directly access the DOM node",
+                                                                        "B: To refer to another JS file",
+                                                                        "C: To bind the function",
+                                                                        "D: To call a function"
+                                                                        ],
+                                                                        "correctOptionIndex": 0
+                                                                        },
+                                                                        {
+                                                                          "title": "What package contains the render() function that renders a React element tree to the DOM?",
+                                                                          "options": [
+                                                                          "A: React",
+                                                                          "B: DOM",
+                                                                          "C: ReactDOM",
+                                                                          "D: Render"
+                                                                          ],
+                                                                          "correctOptionIndex": 2
+                                                                          },
+                                                                          {
+                                                                            "title": "What is sent to an Array.map() function?",
+                                                                            "options": [
+                                                                            "A: a callback function that is called once for each element in the array",
+                                                                            "B: the name of another array to iterate over",
+                                                                            "C: the number of times you want to call the function",
+                                                                            "D: a string describing what the function should do"
+                                                                            ],
+                                                                            "correctOptionIndex": 0
+                                                                            },
+                                                                            {
+                                                                              "title": "Why is it a good idea to pass a function to setState instead of an object?",
+                                                                              "options": [
+                                                                              "A: It is more functional than an object",
+                                                                              "B: It automatically updates a component",
+                                                                              "C: It makes sure that the object is not mutated",
+                                                                              "D: setState is asynchronous and might result in out of sync values."
+                                                                              ],
+                                                                              "correctOptionIndex": 3
+                                                                              },
+                                                                              {
+                                                                                "title": "What are two ways data gets handled in react?",
+                                                                                "options": [
+                                                                                "A: state & props",
+                                                                                "B: services & components",
+                                                                                "C: state & services",
+                                                                                "D: state & component"
+                                                                                ],
+                                                                                "correctOptionIndex": 0
+                                                                                },
+                                                                                {
+                                                                                  "title": "What can you use to handle code splitting?",
+                                                                                  "options": [
+                                                                                  "A: React.split",
+                                                                                  "B: React.lazy",
+                                                                                  "C: React.memo",
+                                                                                  "D: React.fallback"
+                                                                                  ],
+                                                                                  "correctOptionIndex": 1
+                                                                                  },
+                                                                                  {
+                                                                                    "title": "When do you use useLayoutEffect?",
+                                                                                    "options": [
+                                                                                    "A) to optimize for all devices",
+                                                                                    "B) to complete the update",
+                                                                                    "C) to change the layout of the screen",
+                                                                                    "D) when you need the browser to paint before the effect runs"
+                                                                                    ],
+                                                                                    "correctOptionIndex": 3
+                                                                                    }
+
+                                                                      
+                                                                      
+
+                  
+
+  
+  
+    
+  
+  
+  
+]
+
+
